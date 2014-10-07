@@ -1,6 +1,6 @@
 {
   "name": "hubot-xkcd-image",
-  "version": "0.0.1",
+  "version": "1.0.0",
 
   "author": "Adam Edgett <adam.edgett@gmail.com>",
   "description": "Replies to xkcd urls with comic image",
