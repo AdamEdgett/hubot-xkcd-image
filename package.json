@@ -1,0 +1,24 @@
+{
+  "name": "hubot-xkcd-image",
+  "version": "0.0.1",
+
+  "author": "Adam Edgett <adam.edgett@gmail.com>",
+  "description": "Replies to xkcd urls with comic image",
+  "keywords": ["hubot", "hubot-scripts", "xkcd", "comic"],
+  "licenses": [{
+    "type": "MIT"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdamEdgett/hubot-xkcd-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdamEdgett/hubot-xkcd-image/issues"
+  },
+
+  "main": "./index",
+  "engine": "node > 0.8.0 < 0.11.0",
+  "dependencies": {
+    "coffee-script": "1.6.3"
+  },
+}
