@@ -1,14 +1,24 @@
-# Hubot XKCD
+# Hubot XKCD Image
 
 Replies to xkcd urls with comic image
 
-## Usage
+## Installation
 
-Add this repo as a dependency of your Hubot repo:
-`"hubot-xkcd-image": "git://github.com/adamedgett/hubot-xkcd-image.git#master"`
+In your hubot repo, run:
+`npm install --save hubot-xkcd-image`
 
-Run `npm install`
+Then add it to your `external-scripts.json` file:
 
-Add it to your `external-scripts.json` file:
-`"hubot-xkcd-image"`
+`["hubot-xkcd-image"]`
 
+## Example Usage
+
+user> http://xkcd.com/327/
+
+hubot>
+
+Exploits of a Mom
+
+![http://imgs.xkcd.com/comics/exploits_of_a_mom.png](http://imgs.xkcd.com/comics/exploits_of_a_mom.png)
+
+Her daughter is named Help I'm trapped in a driver's license factory.
