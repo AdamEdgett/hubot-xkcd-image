@@ -1,4 +1,5 @@
 # Hubot XKCD Image
+[![npm](https://img.shields.io/npm/v/hubot-xkcd-image.svg)](https://www.npmjs.com/package/hubot-xkcd-image)
 
 Replies to xkcd urls with comic image
 
