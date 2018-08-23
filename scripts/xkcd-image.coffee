@@ -16,7 +16,7 @@
 module.exports = (robot) ->
   robot.hear /https?:\/\/(www.)?xkcd.com(\/\d+)?/i, (msg) ->
     num = if msg.match[2] then "#{msg.match[2]}" else ""
-    msg.http("http://xkcd.com#{num}/info.0.json")
+    msg.http("https://xkcd.com#{num}/info.0.json")
       .get() (err, res, body) ->
         if res.statusCode == 404
           msg.send 'Comic not found.'
